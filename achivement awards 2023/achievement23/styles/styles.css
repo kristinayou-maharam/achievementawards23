@@ -1,0 +1,326 @@
+@font-face {
+  font-family: "maharam";
+  src: url("../src/MaharamNeue-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "maharam-medium";
+  src: url("../src/MaharamNeue-Medium.otf");
+  font-weight: medium;
+}
+
+header{
+  margin-top: 0;
+  margin-bottom: 285px;
+}
+
+#firstrow{
+  display: block;
+  margin-left: 400px;
+}
+
+#secondrow{
+  display: block;
+}
+
+#thirdrow{
+  display: block;
+}
+
+#year{
+  width: 300px;
+  text-align: center;
+  align-content: center;
+  display: inline-block;
+  margin-left: -420px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  vertical-align:top;
+  position: fixed;
+  z-index: 1000;
+}
+
+#shape{
+  width: 15vw;
+  margin-left: 50px;
+  margin-top: 50px;
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+
+#shapetwo{
+  margin-left: 150px;
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+#shapethree{
+  margin-top: 70px;
+  margin-left: -30px;
+  margin-right: 50px;
+}
+
+#shapefour{
+  width: 15vw;
+  margin-left:46vw;
+  margin-top: 40px;
+  display: inline;
+  position: absolute;
+}
+
+#more {
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-bottom: 200px;
+  display: block;
+  margin-top: 200px;
+  z-index: 1000;
+  position: absolute;
+}
+
+#top {
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-bottom: 200px;
+  display: block;
+  margin-top: -200px;
+  z-index: 1000;
+  position: absolute;
+}
+
+#achievementawards{
+  width: 35vw;
+  display: inline-block;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+#logo {
+  width: 248px;
+  display: block;
+  margin-top: 0;
+  margin-left: -20px;
+}
+
+#empty{
+  height: 300px;
+}
+
+h1 {
+  font-size: 128px;
+  font-family: "maharam";
+  font-weight: normal;
+  margin-bottom: -5px;
+  margin-left: -45px;
+  display: inline;
+  /* position: sticky; */
+  top: 200px;
+  transition: 0.2s;
+  text-align: left;
+}
+
+h2 {
+  font-family: "maharam";
+  font-size: 100px;
+  text-align: left;
+  /* margin-left: 10%; */
+  display: inline;
+  margin-top: -20px;
+}
+
+h3 {
+  font-family: "maharam";
+  font-size: 64px;
+  display: inline-block;
+}
+
+#borderbox {
+  font-family: "maharam";
+  font-size: 20px;
+  border: 2px black solid;
+  border-radius: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+  margin-top: 0;
+  text-align: center;
+  width: 200px;
+}
+
+#longborderbox {
+  font-family: "maharam";
+  font-size: 20px;
+  border: 2px black solid;
+  border-radius: 40px;
+  padding: 20px;
+  display: block;
+  margin-top: 0;
+  width: 200px;
+  text-align: center;
+}
+
+#caption{
+  font-size: 20px;
+  display: block;
+  width: 250px;
+  margin-top: 0;
+  font-family: "maharam-medium";
+
+}
+
+h5 {
+  font-size: 25px;
+}
+
+#title{
+  text-decoration: underline;
+}
+
+#block{
+  display: block;
+}
+
+#one{
+z-index: -10;
+margin-top: 200px;
+}
+
+#two{
+z-index: -9;
+}
+
+#three{
+z-index: -8;
+}
+
+#four{
+  z-index: -7;
+}
+
+#five{
+  z-index: -6;
+}
+
+#six{
+  z-index: -5;
+}
+
+#seven{
+  z-index: -4;
+}
+
+#eight{
+  z-index: -3;
+}
+
+#nine{
+  z-index: -2;
+  padding-bottom: 200px;
+}
+
+#ten{
+  z-index: -1;
+}
+
+#eleven{
+  z-index: 0;
+}
+
+.careersales {
+  background-color: #f9dfb0;
+  margin-top: 350px;
+  display: inline-block;
+  width: 30vw;
+  position: sticky;
+  top: 300px;
+  vertical-align: top;
+}
+
+.salesgoal {
+  background-color: #f9dfb0;
+  display: inline-block;
+  width: 30vw;
+  margin-top: 350px;
+  vertical-align: top;
+  position: sticky;
+  top: 300px;
+
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 2.5s ease-in;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.floating{
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+#names {
+  display: inline-block;
+  margin-top: 440px;
+  margin-left: 200px;
+  width: 300px;
+  vertical-align: top;
+}
+.excellencenames {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 10vw;
+  width: 35vw;
+
+}
+
+body {
+  background-color: #f9dfb0;
+  font-family: "maharam";
+  margin-top: 25px;
+  margin-left: 350px;
+  margin-right: 250px;
+  margin-bottom: 0px;
+  overflow-x: hidden;
+
+}
+
+#footer{
+  width: 40vw;
+  display: block;
+  margin-right: 100px;
+  margin-top: 500px;
+}
+
+#congrats{
+  margin-left: 10px;
+  margin-top: 100px;
+  text-align: left;
+  position: sticky;
+  top: 300px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  z-index: 10;
+}
+
+
+canvas{
+  display: block;
+  z-index: 2;
+  left: 0;
+  bottom: -12500px;
+  position: absolute;
+
+}
