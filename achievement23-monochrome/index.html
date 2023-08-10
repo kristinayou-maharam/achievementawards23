@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharam Achievement Awards 2023</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="firstrow">
+        <div id="year">
+      <img id="logo" src="img/maharam-logo.png" />
+    </div>
+      <img id="shapetwo" class="shape" src="img/shape2.svg" />
+      </div>
+      <div id="secondrow">
+        <img id="shape" class="shape" src="img/shape1.svg" />
+        <div id="achievementawards">
+        <h2>2023<br>
+          Achievement
+          <br />
+          Awards
+        </h2>
+      </div></div>
+      <div id="thirdrow">
+        <img id="shapethree" class="shape" src="img/shape3.svg" />
+      <img id="shapefour" class="shape" src="img/shape4.svg" />
+      <a href="#one"><img class="floating" id="more" src="img/seemore.svg" /></a>
+    </div>
+    </header>
+    <div id="scroll">
+      <span id="marquee">2023 ACHIEVEMENT AWARDS * </span>
+      <span id="marquee">2023 ACHIEVEMENT AWARDS * </span>
+    </div>
+    <div class="careersales" id="one">
+      <h3>
+        Career
+        <br />
+        Sales
+        <br />
+        Achievement
+      </h3>
+      <h4 id="borderbox">$5 MILLION</h4>
+    </div>
+      <!-- <div id="firstnames">
+        <h5>Julia Woodside</h5>
+      <h5>Lindsay Avery</h5>
+      </div> -->
+    <div id="names" class="fade-in">
+      <h5>Julia Woodside</h5>
+      <h5>Lindsay Avery</h5>
+    </div>
+    <div class="careersales" id="two">
+      <h3>
+        Career
+        <br />
+        Sales
+        <br />
+        Achievement
+      </h3>
+      <h4 id="borderbox">$10 MILLION</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5>Leslie Huckla</h5>
+      <h5>Shannon Hollman-Merz</h5>
+    </div>
+    <div class="careersales" id="three">
+      <h3>
+        Career
+        <br />
+        Sales
+        <br />
+        Achievement
+      </h3>
+      <h4 id="borderbox">$15 MILLION</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5>Amie Towle</h5>
+      <h5>Stephanie Savage</h5>
+    </div>
+    <div class="careersales" id="four">
+      <h3>
+        Career
+        <br />
+        Sales
+        <br />
+        Achievement
+      </h3>
+      <h4 id="borderbox">$20 MILLION</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5>Alyson Baker</h5>
+    </div>
+    <div class="careersales" id="five">
+      <h3>
+        Career
+        <br />
+        Sales
+        <br />
+        Achievement
+      </h3>
+      <h4 id="borderbox">$50 MILLION</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5>Barbara Canavan</h5>
+      <h5>David Moretti</h5>
+    </div>
+    <div class="careersales" id="six">
+      <h3>
+        Career
+        <br />
+        Sales
+        <br />
+        Achievement
+      </h3>
+      <h4 id="borderbox">$60 MILLION</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5>Carmen Vega</h5>
+    </div>
+    <div class="careersales" id="seven">
+      <h3>
+        Career
+        <br />
+        Sales
+        <br />
+        Achievement
+      </h3>
+      <h4 id="borderbox">$85 MILLION</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5>Linda Namias</h5>
+    </div>
+    <div class="salesgoal" id="eight">
+      <h3>
+        Exceeded
+        <br />
+        Sales
+        <br />
+        Goal
+      </h3>
+      <h4 >Sales <br> Representative /Sales Coordinator</h4>
+    </div>
+    <div id="excellencenames" class="fade-in">
+      <h5>Aly Pierce / <br> Christina Stetzler <br><br>
+        Alyson Baker / <br>Erica Morgan<br><br>
+        Amber Kramer / <br>Shannon Hephner<br><br>
+        Amie Towle / <br>Kyle Gay<br><br>
+        Amy Turnball / <br>Rebecca Flach<br><br>
+        Annette Daniels / <br>Amy Ward<br><br>
+        Barbara Canavan / <br>Mary Ogorzaly<br><br>
+        Billy Dowling / <br>Erica Morgan<br><br>
+        Carly Tyrrell / <br>Angel Rosas<br><br>
+        Carmen Vega / <br>Jasbir Singh<br><br>
+        Caroline White / <br>Jasmin Guerrero<br><br>
+        Celia Yow / <br>Joy Conaway<br><br>
+        Chantal Landry / <br>Melody Wong<br><br>
+        Corey Mahieu / <br>Carol Edlefsen<br><br>
+        Daisy Hopkins / <br>Anna Bean<br><br>
+        Emily Sheehan / <br>Angel Rosas<br><br>
+        Genevieve Kulesza / <br>Rebecca Flach<br><br>
+        Heather Moore / <br>Rose Aquila<br><br>
+        Jacob Kirby / <br>Elisha Hodgin<br><br>
+        Janelle Arauz / <br>Anna Bean<br><br>
+        Jason Sharpe / <br>Tricia Mark<br><br>
+        Jasper Baijings / <br>Polly Lin<br><br>
+        Kathryn Branch / <br>Colleen Claes<br><br>
+        Kristin Whiteford / <br>Todd Moschella<br><br>
+        Leslie Huckla / <br>Chelsea Flanagan<br><br>
+        Linda Namias / <br>Amanda Traiger<br><br>
+        Lindsay Avery / <br>Brandy Foss<br><br>
+        Lindsey Van Veen / <br>Grace Burton<br><br>
+        Madhu Kohler / <br>Rebecca Flach<br><br>
+        Maggie Schierbeek / <br>Intisar Muhammad<br><br>
+        Melinda Henry / <br>Seta Garbet<br><br>
+        Michelle Scott / <br>Tammy Greentree<br><br>
+        Oliver Baijings / <br>Maria Ke<br><br>
+        Rebecca Stine / <br>Barbara Esquivel<br><br>
+        Ryota Minami / <br>Tamaki Yamaguchi<br><br>
+        Shannon Hollman-Merz / <br>Katie Wasserman<br><br>
+        Sidney Miller / <br>Amy Ward<br><br>
+        Silvia Palomero / <br>Maria Ke<br><br>
+        Somer Matty / <br>Tammy Greentree<br><br>
+        Stefanie DeMarco / <br>Nadia Graham<br><br>
+        Stephanie Hamilton / <br>Erica Kaderbek<br><br>
+        Stephanie Savage / <br>Heather Ross<br><br>
+        Susan Sublette / <br>Amy Ward</h5>
+    </div>
+
+    <div class="careersales" id="nine">
+      <h3>
+        Highest
+        <br />
+        Sales
+        <br />
+        Volume
+      </h3>
+    </div>
+    <div id="ninenames" class="fade-in">
+      <h5>Amie Towle</h5>
+    </div>
+
+    <div class="careersales" id="ten">
+      <h3>
+        Regional
+        <br />
+        Sales
+        <br />
+        Excellence
+      </h3>
+      <h4 id="borderbox">Overall regional achievement in strategic management</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5>Pat Shepard</h5>
+    </div>
+
+    <div class="careersales" id="eleven">
+      <h3>
+        Sales
+        <br />
+        Excellence
+      </h3>
+      <h4 id="borderbox">Recognizing overall achievement in sales by category,profitability, percentage of goal and total volume</h4>
+    </div>
+    <div id="names" class="fade-in">
+      <h5 id="title">BRONZE</h5>
+      <h5>Corey Maheiu</h5>
+      <h5 id="title">SILVER</h5>
+      <h5>Stefanie DeMarco</h5>
+      <h5 id="title">GOLD</h5>
+      <h5>Barbara Canavan</h5>
+    </div>
+    <div id="empty"></div>
+    <div id="footer">
+      <h3 id="congrats">Congratulations and<br>thank you!</h3>
+    </div>
+    <a href="#"><img id="top" src="./img/totop.svg"></a>
+    <script src="sketch.js"></script>
+
+    <script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 820 || document.documentElement.scrollTop > 820) {
+    document.getElementById("logo").style.width = "180px";
+    document.getElementById("logo").style.marginLeft = "28px";
+    document.getElementById("logo").style.marginTop = "50px";
+
+  } else {
+    document.getElementById("logo").style.width = "248px";
+    document.getElementById("logo").style.marginLeft = "0px";
+  }
+}
+
+$(window).scroll(function() {
+var theta = $(window).scrollTop() / 10 % Math.PI;
+$('#shapetwo').css({ transform: 'rotate(' + theta + 'rad)' });
+$('#shapethree').css({ transform: 'rotate(' + theta + 'rad)' });
+});
+
+// window.addEventListener('scroll', function(){
+//   const scrollY = window.scrollY;
+//   const rotationAngle = scrollY * 0.5;
+//   const star = document.querySelector('#shapetwo');
+//   star.style.transform = 'translate(-50%, -50%) rotate(${rotationAngle}deg)';
+// });
+
+      $(document).on("scroll", function() {
+  var pageTop = $(document).scrollTop();
+  var pageBottom = pageTop + $(window).height();
+  var tags = $(".fade-in");
+
+  for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+
+    if ($(tag).position().top < pageBottom) {
+      $(tag).addClass("visible");
+    } else {
+      $(tag).removeClass("visible");
+    }
+  }
+});
+      </script>
+  </body>
+</html>
