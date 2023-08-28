@@ -14,7 +14,7 @@
     <header>
       <div id="firstrow">
         <div id="year">
-      <img id="logo" src="img/maharam-logo.png" />
+      <img id="logo" src="img/maharam-logo-blue.svg" />
     </div>
       <img id="shapetwo" class="shape" src="img/shape2.svg" />
       </div>
@@ -30,14 +30,12 @@
       <div id="thirdrow">
         <img id="shapethree" class="shape" src="img/shape3.svg" />
       <img id="shapefour" class="shape" src="img/shape4.svg" />
-      <a href="#one"><img class="floating" id="more" src="img/seemore.svg" /></a>
+      <a href="#one"><img class="floating" id="more" src="img/seemore-blue.svg" /></a>
     </div>
     </header>
-    <div id="scroll">
-      <span id="marquee">2023 ACHIEVEMENT AWARDS * </span>
-      <span id="marquee">2023 ACHIEVEMENT AWARDS * </span>
-    </div>
-    <div class="careersales" id="one">
+
+    <div class="block" id="one">
+    <div class="careersales">
       <h3>
         Career
         <br />
@@ -47,15 +45,14 @@
       </h3>
       <h4 id="borderbox">$5 MILLION</h4>
     </div>
-      <!-- <div id="firstnames">
-        <h5>Julia Woodside</h5>
-      <h5>Lindsay Avery</h5>
-      </div> -->
     <div id="names" class="fade-in">
       <h5>Julia Woodside</h5>
       <h5>Lindsay Avery</h5>
     </div>
-    <div class="careersales" id="two">
+</div>
+
+<div class="block" id="two">
+    <div class="careersales">
       <h3>
         Career
         <br />
@@ -69,7 +66,11 @@
       <h5>Leslie Huckla</h5>
       <h5>Shannon Hollman-Merz</h5>
     </div>
-    <div class="careersales" id="three">
+</div>
+
+
+<div class="block" id="three">
+    <div class="careersales">
       <h3>
         Career
         <br />
@@ -83,7 +84,10 @@
       <h5>Amie Towle</h5>
       <h5>Stephanie Savage</h5>
     </div>
-    <div class="careersales" id="four">
+</div>
+
+<div class="block" id="four">
+    <div class="careersales">
       <h3>
         Career
         <br />
@@ -96,7 +100,10 @@
     <div id="names" class="fade-in">
       <h5>Alyson Baker</h5>
     </div>
-    <div class="careersales" id="five">
+</div>
+
+<div class="block" id="five">
+    <div class="careersales">
       <h3>
         Career
         <br />
@@ -110,7 +117,10 @@
       <h5>Barbara Canavan</h5>
       <h5>David Moretti</h5>
     </div>
-    <div class="careersales" id="six">
+</div>
+
+<div class="block" id="six">
+    <div class="careersales">
       <h3>
         Career
         <br />
@@ -123,7 +133,10 @@
     <div id="names" class="fade-in">
       <h5>Carmen Vega</h5>
     </div>
-    <div class="careersales" id="seven">
+</div>
+
+<div class="block" id="seven">
+    <div class="careersales">
       <h3>
         Career
         <br />
@@ -136,6 +149,8 @@
     <div id="names" class="fade-in">
       <h5>Linda Namias</h5>
     </div>
+</div>
+
     <div class="salesgoal" id="eight">
       <h3>
         Exceeded
@@ -144,7 +159,7 @@
         <br />
         Goal
       </h3>
-      <h4 >Sales <br> Representative /Sales Coordinator</h4>
+      <h4 >Sales <br> Representative /<br>Sales Support</h4>
     </div>
     <div id="excellencenames" class="fade-in">
       <h5>Aly Pierce / <br> Christina Stetzler <br><br>
@@ -192,7 +207,9 @@
         Susan Sublette / <br>Amy Ward</h5>
     </div>
 
-    <div class="careersales" id="nine">
+
+<div class="block" id="nine">
+    <div class="careersales">
       <h3>
         Highest
         <br />
@@ -201,11 +218,14 @@
         Volume
       </h3>
     </div>
-    <div id="ninenames" class="fade-in">
+    <div id="names" class="fade-in">
       <h5>Amie Towle</h5>
     </div>
+    </div>
 
-    <div class="careersales" id="ten">
+
+    <div class="block" id="ten">
+    <div class="careersales">
       <h3>
         Regional
         <br />
@@ -218,8 +238,11 @@
     <div id="names" class="fade-in">
       <h5>Pat Shepard</h5>
     </div>
+  </div>
 
-    <div class="careersales" id="eleven">
+
+<div class="block" id="eleven">
+    <div class="careersales">
       <h3>
         Sales
         <br />
@@ -235,12 +258,15 @@
       <h5 id="title">GOLD</h5>
       <h5>Barbara Canavan</h5>
     </div>
+    </div>
+    
     <div id="empty"></div>
     <div id="footer">
       <h3 id="congrats">Congratulations and<br>thank you!</h3>
     </div>
-    <a href="#"><img id="top" src="./img/totop.svg"></a>
+    <a href="#"><img id="top" src="./img/totop-blue.svg"></a>
     <script src="sketch.js"></script>
+    <script src="Confetti.js"></script>
 
     <script>
 
@@ -264,28 +290,25 @@ $('#shapetwo').css({ transform: 'rotate(' + theta + 'rad)' });
 $('#shapethree').css({ transform: 'rotate(' + theta + 'rad)' });
 });
 
-// window.addEventListener('scroll', function(){
-//   const scrollY = window.scrollY;
-//   const rotationAngle = scrollY * 0.5;
-//   const star = document.querySelector('#shapetwo');
-//   star.style.transform = 'translate(-50%, -50%) rotate(${rotationAngle}deg)';
-// });
 
-      $(document).on("scroll", function() {
-  var pageTop = $(document).scrollTop();
-  var pageBottom = pageTop + $(window).height();
-  var tags = $(".fade-in");
+$(document).ready(function() {
+      $(window).on("scroll", function() {
+        var pageTop = $(document).scrollTop();
+        var pageBottom = pageTop + $(window).height();
+        var tags = $(".fade-in");
 
-  for (var i = 0; i < tags.length; i++) {
-    var tag = tags[i];
+        for (var i = 0; i < tags.length; i++) {
+          var tag = tags[i];
 
-    if ($(tag).position().top < pageBottom) {
-      $(tag).addClass("visible");
-    } else {
-      $(tag).removeClass("visible");
-    }
-  }
-});
+          if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible");
+          } else {
+            $(tag).removeClass("visible");
+          }
+        }
+      });
+    });
+
       </script>
   </body>
 </html>
