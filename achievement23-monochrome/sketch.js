@@ -1,7 +1,7 @@
 let confettiColor = [], confetti = [];
 
 function setup() {
-  createCanvas(windowWidth,1200);
+  createCanvas(windowWidth,windowHeight+300);
 	confettiColor = [color('#FFF9C9'), color('#FF88CF'), color('#72c8b6')];
   for (let i = 0; i < 100; i++) {
     confetti[i] = new Confetti(random(0, width), random(-height, 0), random(-1, 1));

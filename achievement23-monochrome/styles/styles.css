@@ -15,6 +15,7 @@ header{
   padding-top: 0px;
   padding-bottom: 130px;
   margin-bottom: 505px;
+  align-content: center;
   background-color: #4d75b6;
   position: absolute;
   z-index: 125;
@@ -40,8 +41,8 @@ header{
   text-align: center;
   align-content: center;
   display: inline-block;
-  margin-left: -440px;
-  margin-top: 16vh;
+  margin-left: -455px;
+  margin-top: 15vh;
   margin-bottom: 20px;
   vertical-align:top;
   position: fixed;
@@ -51,7 +52,7 @@ header{
 #shape{
   width: 15vw;
   margin-left: -20px;
-  margin-top: 50px;
+  margin-top: 40px;
   transform: translate(0%, 0%) rotate(0deg);
   fill: rgb(183, 214, 255);
 }
@@ -69,7 +70,7 @@ header{
 }
 
 #shapethree{
-  margin-top: 70px;
+  margin-top: 65px;
   margin-left: -30px;
   margin-right: 50px;
   fill: orange;
@@ -78,7 +79,7 @@ header{
 #shapefour{
   width: 15vw;
   margin-left:33vw;
-  margin-top: 40px;
+  margin-top: 55px;
   display: inline;
   position: absolute;
 }
@@ -250,7 +251,7 @@ z-index: -8;
 
 .block{
   position: sticky;
-  top: 50px;
+  top: 0px;
   padding-top: 200px;
   padding-bottom: 400px;
   margin-top: 200px;
@@ -357,7 +358,7 @@ body {
   width: 40vw;
   display: block;
   margin-right: 100px;
-  margin-top: 500px;
+  margin-top: 600px;
 }
 
 #congrats{
@@ -368,7 +369,7 @@ body {
   padding-bottom: 300px;
   z-index: 400;
   position: sticky;
-  top: 300px;
+  top: 400px;
 }
 
 
@@ -376,21 +377,8 @@ canvas{
   display: block;
   z-index: 200;
   left: 0;
-  bottom: -18500px;
+  bottom: -2380%;
   position: absolute;
 
 }
 
-#scroll{
-  writing-mode: vertical-lr;
-  text-orientation: sideways-right;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  right: 0px;
-  display: block;
-  height: 300%;
-  white-space: nowrap;
-;
-
-}
