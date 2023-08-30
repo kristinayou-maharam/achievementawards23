@@ -36,7 +36,7 @@ header{
   display: block;
 }
 
-#year{
+#maharam{
   width: 300px;
   text-align: center;
   align-content: center;
@@ -273,7 +273,7 @@ z-index: -8;
 }
 
 
-.careersales {
+.achievementtitle {
   background-color: #4d75b6;
   padding-bottom: 200px;
   padding-left: 0px;
@@ -377,8 +377,59 @@ canvas{
   display: block;
   z-index: 200;
   left: 0;
-  bottom: -2380%;
+  bottom: -2350%;
   position: absolute;
 
 }
 
+
+@media (max-width: 1200px){
+  .block{
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: -300px;
+  }
+
+  header{
+    width: 50%;
+  }
+
+  #excellencenames{
+    position: relative;
+  }
+
+  #salesgoal{
+    position: relative;
+  }
+
+  #names{
+    margin-left: 55vw;
+  }
+
+  #maharam{
+   top: -5vh;
+   margin: auto;
+    position: fixed;
+    display: block;
+  }
+
+  .shape{
+    width: 15vw;
+  }
+
+  #achievementawards{
+    margin-bottom: 100px;
+    margin-left: 10vw;
+    text-align: center;
+
+  }
+
+}
+
+@media (max-width:400px){
+  #achievementtitle{
+    width: 40vw;
+  }
+
+}

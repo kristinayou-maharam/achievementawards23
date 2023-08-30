@@ -1,3 +1,5 @@
+//Code adapted from slow_izzm- 'confetti' sketch
+
 let confettiColor = [], confetti = [];
 
 function setup() {
@@ -26,4 +28,8 @@ function draw() {
       confetti[i] = new Confetti(random(0, width), random(-height, 0), random(-1, 1));
     }
   }
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth,windowHeight+300);
 }
