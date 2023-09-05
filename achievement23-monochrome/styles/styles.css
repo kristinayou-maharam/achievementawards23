@@ -25,7 +25,7 @@ header{
 
 #firstrow{
   display: block;
-  margin-left: 400px;
+  margin-left: 26vw;
 }
 
 #secondrow{
@@ -51,7 +51,7 @@ header{
 
 #shape{
   width: 15vw;
-  margin-left: -20px;
+  margin-left: -3vw;
   margin-top: 40px;
   transform: translate(0%, 0%) rotate(0deg);
   fill: rgb(183, 214, 255);
@@ -63,15 +63,15 @@ header{
 
 
 #shapetwo{
-  margin-left: 23vw;
-  margin-top: 65px;
+  margin-left: 20vw;
+  margin-top: 85px;
   transform: translate(0%, 0%) rotate(0deg);
   fill: orange;
 }
 
 #shapethree{
-  margin-top: 65px;
-  margin-left: -30px;
+  margin-top: 55px;
+  margin-left: -3vw;
   margin-right: 50px;
   fill: orange;
 }
@@ -108,14 +108,14 @@ header{
 #achievementawards{
   width: 35vw;
   display: inline-block;
-  margin-left: 170px;
+  margin-left: 10vw;
   margin-top: 10px;
 }
 #logo {
   width: 248px;
   display: block;
   margin-top: -8px;
-  margin-left: 6px;
+  margin-left: 25vw;
   padding-top: 0;
   position: absolute;
   z-index: 300;
@@ -409,7 +409,7 @@ canvas{
 
   #maharam{
    top: -5vh;
-   margin: auto;
+   margin:auto;
     position: fixed;
     display: block;
   }
